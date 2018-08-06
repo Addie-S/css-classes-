@@ -1,0 +1,46 @@
+h1{
+  text-align: center;
+}
+
+body {
+  background-color: white;
+}
+
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.logo{
+  max-width: 1200px;
+  padding: 10px;
+  border: 2px solid #867cad;
+  margin: auto;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 50;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: #867cad;
+  padding: 15px 50px;
+  text-decoration: none;
+  background-color: white;
+
+}
+
+.navigation {
+  text-align: center;
+}
