@@ -1,23 +1,28 @@
-h1{
-  text-align: center;
-}
 
 body {
-  background-color: white;
+  width: 99%;
+  height: 500px;
+  background-image: url("/Users/new/Desktop/cupcake-shop/images/cacti-j-image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: contain;
+  background-color: #D5DBD9;
 }
 
-.images {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-}
-
-.logo{
+.box{
   max-width: 1200px;
+  max-height: 1200px;
+  background: #D5DBD9;
   padding: 10px;
-  border: 2px solid #867cad;
+  border: 2px solid #58687D;
   margin: auto;
+  overflow: auto;
+}
+
+h1{
+  color: #58687D;
+  text-align: center;
 }
 
 ul {
@@ -34,13 +39,19 @@ li {
 
 li a {
   display: inline-block;
-  color: #867cad;
+  color: #293E5A;
   padding: 15px 50px;
   text-decoration: none;
-  background-color: white;
-
+  background-color: #D5DBD1;
 }
 
 .navigation {
   text-align: center;
+  opacity: .5;
+  filter:alpha(opacity=50);
+}
+
+.navigation:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
 }
