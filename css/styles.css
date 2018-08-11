@@ -1,19 +1,21 @@
-
 body {
-  width: 99%;
-  height: 500px;
-  background-image: url("/Users/new/Desktop/cupcake-shop/images/cacti-j-image.jpg");
+  font-family: 'Dosis', sans-serif;
+}
+
+.parallax {
+  background-image: url("/Users/new/Desktop/cupcake-shop/images/cacti-i-image.jpg");
+  min-height: 800px;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: top;
-  background-size: cover;
+  background-size: 600px 500px;
+  background-position: center;
   background-color: #D5DBD9;
 }
 
 .box{
   max-width: 1200px;
   max-height: 1200px;
-  background: #D5DBD9;
+  background: inherit;
   padding: 10px;
   border: 2px solid #58687D;
   margin: auto;
@@ -42,7 +44,7 @@ li a {
   color: #293E5A;
   padding: 15px 50px;
   text-decoration: none;
-  background-color: #D5DBD1;
+  background-color: inherit;
 }
 
 .navigation {
@@ -54,4 +56,42 @@ li a {
 .navigation:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
+}
+
+.description {
+  background-color: white;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+ h3 {
+  text-align: center;
+  color: 777;
+  font-weight: bold;
+ }
+
+p {
+  color: 777;
+  text-align: center;
+}
+
+.parallax-2 {
+  background-image: url("/Users/new/Desktop/cupcake-shop/images/cacti-e-image.jpeg");
+  min-height: 800px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 600px 650px;
+  background-position: center;
+  background-color: #58687D;
+}
+
+.parallax-3 {
+  background-image: url("/Users/new/Desktop/cupcake-shop/images/cacti-l-image.jpg");
+  min-height: 800px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 600px 435px;
+  background-position: center;
+  background-color: #AA7384;
+
 }
